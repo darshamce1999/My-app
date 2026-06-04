@@ -1,0 +1,21 @@
+
+.parent {
+    position: relative;
+    width: 40%;
+    height: 20px;
+    border-radius:10px;
+    border: 2px solid black;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.percemtageText {
+    position: absolute;
+    left:50%;
+    bottom: 1px;
+}
+
+.progress {
+    height: inherit;
+    background-color: rgb(43, 255, 0);
+}

@@ -1,0 +1,50 @@
+/* .likeBtn {
+    width: 70px;
+    height: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    display: flex;
+    padding: 8px;
+}
+
+.icon {
+    flex-basis: 20px;
+} */
+
+
+/* .likeBtn {
+    width: 70px;
+    height: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    display: flex;
+    padding: 8px;
+    margin: auto;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.likeBtn {
+    border: 2px solid;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    padding: 6px 10px;
+    width: 60px;
+    margin: auto;
+    align-items: center;
+}
+
+.icon {
+    /* width: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 20px;
+}

@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.head {
+    background-color: rgba(184, 149, 159, 0.852);
+    flex-grow: 1;
+}
+
+.main {
+    flex-grow: 6;
+    display: flex;
+}
+
+.aside {
+    background-color: bisque;
+    flex-grow: 1;
+}
+
+.section {
+    background-color: rgba(0, 0, 255, 0.217);
+    flex-grow: 4;
+}
+
+.footer {
+    background-color: rgba(224, 255, 196, 0.509);
+    flex-grow: 1;
+}

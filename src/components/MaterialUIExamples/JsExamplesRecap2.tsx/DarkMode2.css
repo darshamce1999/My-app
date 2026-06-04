@@ -1,0 +1,9 @@
+[dark-mode="dark"] {
+    background-color: black;
+    color: white;
+}
+
+[dark-mode="light"] {
+    background-color: white;
+    color: grey;
+}

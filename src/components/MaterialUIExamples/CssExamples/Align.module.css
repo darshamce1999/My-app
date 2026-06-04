@@ -1,0 +1,51 @@
+.alignStyle {
+    text-align: end;
+}
+
+.justify {
+    text-align: unset;
+}
+
+.spanConatiner {
+    display: inline-block;
+    padding: 10px 20px 30px 40px;
+    margin: 50px 50px 50px 50px;
+    border: 1px solid red;
+}
+
+.para {
+    display: inline;
+    margin: 10px;
+    padding: 20px;
+}
+
+.parawidth {
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+    vertical-align: bottom;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    
+}
+
+
+.spaninlineBlockWidth {
+    display: inline-block;
+    background-color: rgb(32, 158, 40);
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.parainlineBlockWidth {
+    display: inline-block;
+    background-color: rgb(244, 8, 86);
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+h6 {
+    white-space: nowrap;
+}

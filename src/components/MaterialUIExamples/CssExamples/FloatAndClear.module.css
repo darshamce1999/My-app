@@ -1,0 +1,68 @@
+.box1 {
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    float: left;
+}
+
+.box2 {
+    width:100px;
+    height:110px;
+    background-color: rgb(27, 212, 24);
+    /* float: right; */
+}
+
+/* Reason why it's comming in nexct line is because box2 is in normal flow and box 3 come after that in next row, since it s float right it is moved to right in that row*/
+.box3 {
+    width:100px;
+    height:100px;
+    background-color: rgb(231, 44, 131);
+    float: right;
+}
+
+.para {
+    width: 50%;
+    background-color: rgba(88, 75, 235, 0.354);
+    clear: right;
+}
+
+/* --------------------------------------------------------------------------- */
+
+.boxex1 {
+    width:100px;
+    height:90px;
+    float: left;
+    background-color: rgb(27, 212, 24);
+    border:1px solid red
+}
+
+.boxex2 {
+    width:100px;
+    height:100px;
+    float: right;
+    background-color: rgb(24, 203, 212);
+}
+
+.boxex3 {
+    width:100px;
+    height:100px;
+    float: left;
+    background-color: rgb(234, 230, 16);
+    clear: right;
+}
+
+.spanContainer1 {
+    width:100px;
+    height:100px;
+    float: left;
+    clear: right;
+    background-color: rgb(24, 203, 212);
+}
+
+.spanContainer2 {
+    width:100px;
+    height:100px;
+    float: left;
+    clear: left;
+    background-color: rgb(156, 53, 240);
+}

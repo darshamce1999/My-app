@@ -1,0 +1,54 @@
+/* .transform {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.transform:hover {
+    transform: rotateX(270deg);
+} */
+
+
+.transform {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+
+    transition-duration: 3s;
+    transition-property: transform;
+    transition-delay: 1s;
+    transition-timing-function: ease-out;
+}
+
+.transform:hover {
+    transform: translateX(100%);
+    background-color: blue;
+}
+
+
+
+
+.animation {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.animation:hover {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    animation: moveRight 3s alternate infinite;
+}
+
+@keyframes moveRight {
+    33% {
+        transform: translateX(100%);
+    }
+    66% {
+        transform:translateX(100%) translateY(100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}

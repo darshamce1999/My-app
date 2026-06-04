@@ -1,0 +1,13 @@
+
+.gridBox {
+    width: 250px;
+    height: 250px;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.grey {
+    background-color: rgba(220, 220, 220, 0.34);
+}

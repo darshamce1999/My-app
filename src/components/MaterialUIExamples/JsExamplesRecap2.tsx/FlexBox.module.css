@@ -1,0 +1,32 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+.header {
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 4;
+}
+
+.main {
+    background-color: azure;
+    flex-grow: 4;
+}
+
+.aside {
+    background-color: gainsboro;
+    flex-grow: 1;
+}
+
+.footer {
+    background-color: antiquewhite;
+    flex-grow: 1;
+}

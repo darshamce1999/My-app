@@ -1,0 +1,15 @@
+.root {
+    width: 50%;
+    margin: auto;
+    background-color: rgba(245, 245, 220, 0.297);
+    padding-block: 15px;
+    padding-inline: 20px;
+}
+
+.jobWrapper {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 1px;
+    margin-block: 10px;
+    padding: 10px;
+}

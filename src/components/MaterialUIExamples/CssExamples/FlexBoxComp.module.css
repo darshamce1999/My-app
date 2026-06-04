@@ -1,0 +1,191 @@
+
+.flexbox {
+    display: flex;
+    width: 40%;
+    height: 300px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flexboxabc {
+    display: flex;
+    width: 40%;
+    height: 300px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;  
+    /* this is the only extra one */
+}
+
+.flexbox span, .flexboxabc span {
+    border: 1px solid rgb(240, 16, 16);
+    width: 20%;
+}
+
+
+/* ----------------------------------------------------------------- */
+
+.flexBox2 {
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.flexBox2 span {
+    /* flex-basis: auto;
+    flex-grow: 1; */
+    /* above 2 lines also equal to below */
+    flex: 1;
+
+    text-align: center;
+}
+
+.flexBox2 span:hover {
+   background-color: rgba(130, 136, 136, 0.808);
+}
+
+@media all and (max-width: 480px) {
+    .flexBox2 {
+        display: flex;
+        border: 1px solid black;
+        flex-direction: column;
+    }
+    
+    .flexBox2 span:hover {
+        background-color: rgba(130, 136, 136, 0.808);
+     }
+}
+
+/* ----------------------------------------------------------------- */
+
+.body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.body main {
+    display: flex;
+    flex: 1;
+}
+
+.body header {
+    background-color: azure;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.body aside {
+    background-color: rgb(194, 175, 213);
+    flex: 1 1;
+}
+
+.body article {
+    background-color: rgb(242, 242, 250);
+    flex: 3 3;
+}
+
+.body footer {
+    background-color: aqua;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+@media all and (max-width: 480px) {
+    .body main {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* ----------------------------------------------------------------- */
+
+.FlexLayoutDesign2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.FlexLayoutDesign2 header {
+    background-color: antiquewhite;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.FlexLayoutDesign2 .content {
+    display: flex;
+    flex-grow: 2;
+}
+
+.FlexLayoutDesign2 article {
+    background-color: rgb(179, 25, 221);
+    flex-grow: 1;
+}
+
+.FlexLayoutDesign2 .section {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+@media screen and (min-width: 500px) {
+    .FlexLayoutDesign2 section:nth-child(1) {
+        background-color: rgb(132, 195, 178);
+        flex-grow: 1;
+        margin-bottom: 1%;
+    }
+    
+    .FlexLayoutDesign2 section:nth-child(2) {
+        background-color: rgb(132, 195, 178);
+        flex-grow: 1;
+    }    
+
+    /* just enclosed inside media query to handle margin comming bittom foe mobile screen */
+}
+
+.FlexLayoutDesign2 main {
+    background-color: azure;
+    flex-grow: 1;
+}
+
+.FlexLayoutDesign2 footer {
+    background-color: rgba(0, 0, 0, 0.194);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+    .FlexLayoutDesign2 .content {
+        display: flex;
+        flex-grow: 2;
+        flex-direction: column;
+    }
+    
+    .FlexLayoutDesign2 article {
+        background-color: rgb(179, 25, 221);
+        flex-grow: 1;
+    }
+    
+    .FlexLayoutDesign2 .section {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+    }
+
+    .FlexLayoutDesign2 section:nth-child(1) {
+        background-color: rgb(132, 195, 178);
+        flex-grow: 1;
+        margin-right: 1%;
+    }
+    
+    .FlexLayoutDesign2 section:nth-child(2) {
+        background-color: rgb(132, 195, 178);
+        flex-grow: 1;
+    }
+}

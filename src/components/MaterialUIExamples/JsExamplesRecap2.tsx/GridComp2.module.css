@@ -1,0 +1,68 @@
+.containerX {
+    display: grid;
+    height: 500px;
+    grid-template-columns: repeat(3, 100px);
+    /* grid-template-rows: repeat(3, 100px); */
+    /* when u do not exact size of grid, when the grid is dynamic, u can set grid-auto-row property to take 100px*/
+    grid-auto-rows:  100px;  
+
+    justify-items: stretch;
+    align-items: stretch;
+    row-gap: 5px;
+    column-gap: 5px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.item {
+    background-color: aqua;
+}
+
+.item5 {
+    justify-self: end;
+    align-self: center;
+}
+
+.item7 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+/* .item8 {
+    grid-row-start: 1;
+} */
+
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.containery {
+    display: grid;
+    grid-template-areas: "h h h h h" "a1 m m m a2" "f f f f f";
+    height: 100vh;
+    grid-auto-rows: 20vh auto 20vh;
+}
+
+.itemH {
+    grid-area: h;
+    background-color: aqua;
+}
+
+.itemA1 {
+    grid-area: a1;
+    background-color: antiquewhite;
+}
+
+.itemM {
+    grid-area: m;
+    background-color: azure;
+}
+
+.itemA2 {
+    grid-area: a2;
+    background-color: antiquewhite;
+}
+
+.itemF {
+    grid-area: f;
+    background-color: deepskyblue;
+}

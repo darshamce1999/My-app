@@ -1,0 +1,35 @@
+.success {
+    background-color: rgb(146, 213, 45);
+}
+
+.warning {
+    background-color: orange;
+}
+
+.info {
+    background-color: rgba(0, 0, 255, 0.63);
+}
+
+.danger {
+    background-color: red;
+}
+
+.toast {
+    display: flex;
+    width: 20%;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.bottomLeft {
+    position: fixed;
+    bottom:20px;
+    left:20px;
+}
+
+.bottomRight {
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+}

@@ -1,0 +1,42 @@
+.parentRelative {
+    position: static
+    /* position: relative */
+    /* for alliging absolute */
+}
+
+.relative {
+    background-color:aliceblue;
+    border: 3px solid #73AD21;
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+
+.absolute {
+    background-color: antiquewhite;
+    border: 3px solid #73AD21;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+
+    /* it will span till only content */
+}
+
+.fixed {
+    background-color: rgb(221, 21, 34);
+    position: fixed;
+    left: 20px;
+    bottom: 0px;
+    margin: 0;
+    z-index: 1;
+
+    /* it will span till only content */
+}
+
+.sticky {
+    background-color: rgb(174, 218, 43);
+    position: sticky;
+    top: 0px;
+        /* left: 20px; left and right won't work in sticky*/
+}

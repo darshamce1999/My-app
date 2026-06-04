@@ -1,0 +1,8 @@
+.suggestion:hover {
+    background-color: rgba(227, 224, 224, 0.836);
+}
+
+.container {
+    width: 15%;
+    margin: 0 auto;
+}

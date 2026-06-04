@@ -1,0 +1,12 @@
+.suggestion:hover {
+    background-color: rgba(0, 0, 0, 0.144);
+}
+
+.suggestion {
+    padding: 5px;
+}
+
+.ulList {
+    list-style-type: none;
+    padding: 0px;
+}

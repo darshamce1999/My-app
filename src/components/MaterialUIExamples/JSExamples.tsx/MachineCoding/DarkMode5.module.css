@@ -1,0 +1,14 @@
+:root {
+    --bg-Color: rgba(215, 232, 22, 0.269);
+    --text-color: rgb(74, 121, 74);
+}
+
+.darksss {
+    --bg-Color: rgba(60, 52, 164, 0.957);
+    --text-color: white;
+}
+
+body {
+    background-color: var(--bg-Color);
+    color: var(--text-color);
+}

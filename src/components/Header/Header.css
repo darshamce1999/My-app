@@ -1,0 +1,15 @@
+.head {
+    background-color: rgb(206, 127, 255);
+}
+
+/*
+when u create a normal style file, it will going to add under <style> tag under head, 
+that's why it will become gloabl, and when some other class use same classNAme it wil cause conflict
+
+Module style, same here it will going to add under <style> tag under head,
+but when craetestyle ex- .head  it will add filename_head_hash, so it will become uniq1ue even if we cretae new css module file
+and have .head their as well
+
+1 more problem which i found out, if you craete style suing tag name say p {background-color: blue} it will still going to behave as gloabl style.
+i think it's not work for atg name, it work better for class name
+*/

@@ -1,0 +1,41 @@
+.wrapper {
+  width: 50vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper span {
+  position: relative;
+  z-index: 1;
+}
+
+.progress {
+  position: absolute;
+  background-color: greenyellow;
+  top: 0;
+  bottom: 0;
+}
+
+
+/* .wrapper {
+  width: 50vh;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper span {
+  position: absolute;
+  left: 50%;
+  z-index: 1;
+}
+
+.progress {
+  background-color: greenyellow;
+  height: inherit;
+} */

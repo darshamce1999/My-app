@@ -1,0 +1,24 @@
+.wrapper {
+    width: 40%;
+    display: flex;
+    justify-content: center; 
+    margin: auto;
+}
+
+.content {
+    border: 1px solid black;
+    /* flex-grow: 4; */
+    flex-basis: 40%;
+    padding-block: 10px;
+}
+
+.actionWrapper {
+    /* flex-grow: 1; */
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    gap: 8px;
+    padding-block: 10px;
+}

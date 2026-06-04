@@ -1,0 +1,7 @@
+.notes {
+    width: 200px;
+    height: 60px;
+    background-color: rgba(236, 236, 41, 0.767);
+    border: 2px solid black;
+    cursor: move;
+}

@@ -1,0 +1,49 @@
+.container {
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    margin: auto;
+
+    overflow: hidden;
+}
+
+
+.progressCount {
+    text-align: center;
+
+    /* just to make count appear on top of green background */
+    position: relative;
+    z-index: 1;
+}
+
+.progressBar {
+    position: absolute;
+    background-color: rgba(69, 206, 101, 0.685);
+    top: 0;
+    bottom:0;
+    left: 0;
+}
+
+
+/* .container {
+    width: 500px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    margin: auto;
+
+    overflow: hidden;
+}
+
+.progressCount {
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+}
+
+.progressBar {
+    height: inherit;
+    background-color: rgba(69, 206, 101, 0.685);
+} */

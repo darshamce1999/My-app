@@ -1,0 +1,13 @@
+.type1 {
+    background-color: aqua;
+    margin:  auto auto;
+    width: 50%;
+}
+
+.type2 {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* width: 50%; */
+}

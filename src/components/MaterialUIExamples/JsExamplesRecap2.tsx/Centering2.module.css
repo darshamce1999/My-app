@@ -1,0 +1,29 @@
+/* .centerGrid {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+} */
+
+/* .centerFlex {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+.centerMarginAuto {
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.content {
+    background-color: aqua;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}

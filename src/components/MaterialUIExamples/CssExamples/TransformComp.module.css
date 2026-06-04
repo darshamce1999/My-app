@@ -1,0 +1,71 @@
+.translate {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transform: translate(100px, 100px);
+}
+
+.rotate {
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    transform: rotate(45deg);
+}
+
+.scale {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(14, 14, 84, 0.142);
+    transform: scale(0.5);
+}
+
+.skew {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(7, 146, 227, 0.658);
+    transform: skew(45deg);
+}
+
+.rotate3d {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(215, 250, 225);
+    transform: rotate3d(1, 1, 1, 45deg);
+}
+
+/* -------------------- translate 2 -------------------------------*/
+
+.translate2 {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.translate2:hover {
+    /* transform: translateX(300px);
+    transform: translateY(300px); */
+    /* transform: translate(300px, 300px); */
+    transform: translateZ(500px)
+}
+
+
+.rotate2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(66, 27, 156);
+
+    transform: rotate(50deg)
+
+    /* transform: scale(0.5) */
+    /* transform: scaleX(0.5) */
+    /* transform: scaleY(0.5) */
+
+}
+
+.skew2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(46, 215, 105, 0.74);
+
+    transform: skewX(80deg);
+}

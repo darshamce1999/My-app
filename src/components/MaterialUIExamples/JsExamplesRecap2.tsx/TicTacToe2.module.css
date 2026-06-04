@@ -1,0 +1,14 @@
+.wrapper {
+    display: grid;
+    width: 210px;
+    grid-template-columns: repeat(3, 70px);
+    grid-template-rows: repeat(3, 70px);
+    margin: auto;
+}
+
+.gridItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}

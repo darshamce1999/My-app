@@ -1,0 +1,14 @@
+.link {
+    background-color: #249f9b7a;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link > a {
+    text-align: center;
+}
+
+.link > a:hover {
+    background-color: #249f9bd4;
+}
+

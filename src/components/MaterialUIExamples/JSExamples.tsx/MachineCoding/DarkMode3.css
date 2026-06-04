@@ -1,0 +1,14 @@
+:root {
+    --text-color: rgba(108, 26, 87, 0.991);
+    --bg-Color: rgba(39, 236, 203, 0.164);
+}
+
+.dark {
+    --bg-Color: black;
+    --text-color: white;
+}
+
+body {
+    background-color: var(--bg-Color);
+    color: var(--text-color);
+}

@@ -1,0 +1,1 @@
+export const BUY_ICE_CREAM = 'buy_ice_cream'

@@ -1,0 +1,163 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 255, 255, 0.174);
+
+    /* 
+    transition-property: background-color width;
+    //you need to mention for which css proprty transition action takes place, when you perform any action (like hovering), 
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s; */
+
+    transition: width 2s ease-in-out 0.5s;
+    /* if you don't mention any propert it will consider all */
+
+    /* transition: background-color 500ms ease-in, width 1s ease-in 0.5s; */
+}
+
+.box:hover {
+    background-color: rgba(183, 119, 36, 0.37);
+    width: 500px;
+    color: blue;
+
+    /* transition: background-color 500ms ease-in, width 1s ease-in 0.5s; */
+    /* we can also add tarnsition effect directly to hover proprtty, if we add to parent the transition is smooth on hover in and hover out,
+    but if we add to box:hover it work well for hover in, but when we hover out box:hover propery will become invalid thus transition wwill not have any effect  */
+}
+
+
+/* --------------------------------------------------------------------- */
+
+.boxAnimation {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 255, 255, 0.174);
+}
+
+.boxAnimation:hover {
+    /* animation-name: expandBox;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    animation-iteration-count: 2; */
+
+    animation: expandBox 1s ease-in 0.5s 2;
+}
+
+@keyframes expandBox {
+    to {
+        background-color: rgba(183, 119, 36, 0.37);
+        width: 500px;
+        color: blue;
+    }
+
+    /* 0% {
+        background-color: red;
+        width: 250px;
+    }
+    25% {
+        background-color: yellow;
+        width: 300px;
+    }
+    50% {
+        background-color: blue;
+        width: 400px;
+    }
+    100% {
+        background-color: green;
+        width: 500px;
+    } */
+}
+
+/* --------------------animation 2 -------------------------------*/
+
+.boxAnimation2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(215, 0, 0, 0.174);
+    animation: expandBox2 2s linear 1s 2 alternate;
+}
+
+@keyframes expandBox2 {
+    from { 
+        background-color: rgba(13, 205, 99, 0.37);
+        width: 500px;
+    }
+
+}
+
+.boxAnimation2:hover {
+    animation-play-state: paused;
+}
+
+
+
+/* --------------------animation 3 -------------------------------*/
+
+.boxAnimation3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(196, 247, 30, 0.174);
+    animation: expandBox3 2s linear 1s 1 reverse;
+}
+
+@keyframes expandBox3 {
+    to { 
+        background-color: rgba(13, 205, 99, 0.37);
+        width: 500px;
+    }
+
+}
+
+.boxAnimation3:hover {
+    animation-play-state: paused;
+}
+
+
+
+/* --------------------transition2 -------------------------------*/
+
+.transition2 {
+    background-color: rgba(67, 125, 176, 0.317);
+    width: 200px;
+    height: 200px;
+
+    transition:width 1s linear 500ms;
+}
+
+.transition2:hover {
+    width: 400px;
+    height: 400px;
+}
+
+
+/* --------------------animation 4 -------------------------------*/
+
+.parentAnimation {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(108, 108, 192, 0.411);
+}
+
+.boxAnimation4 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(196, 247, 30, 0.943);
+    animation: moveAbc  2s alternate 1s infinite;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes moveAbc {
+    100% {
+        transform: translateX(200px);
+    }
+
+    66% {
+        transform: translate(200px, 200px);
+    }
+
+    33% {
+        transform: translateY(200px);
+    }
+}
