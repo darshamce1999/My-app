@@ -9,6 +9,11 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://cdn.dummyjson.com; connect-src ws://localhost:3000 https://dummyjson.com; 
+      style-src 'self' 'unsafe-inline';"> -->
+    <!-- https://content-security-policy.com/ https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP  
+      reason for connect-src ws://localhost:3000 https://chatgpt.com/share/68a17c69-6cac-8010-b3b2-62760ec26607
+      reasons for setting 'unsafe-inline' to style-src => https://chatgpt.com/c/67b9cf19-7c1c-8010-be5c-450f0e0a16ff  or use correct way https://chatgpt.com/share/68a18392-6028-8010-84f6-b6e60531a055-->
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
